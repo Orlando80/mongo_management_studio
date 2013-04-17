@@ -1,5 +1,0 @@
-<?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.Label?>
-<TableView fx:id="tableView" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.MongoTabularViewController">
-
-</TableView>

@@ -1,4 +1,4 @@
-package sample;
+package Presentation.Controllers;
 
 import com.mongodb.*;
 import javafx.beans.property.SimpleStringProperty;
@@ -6,7 +6,6 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.util.Callback;
@@ -21,11 +20,11 @@ public class MongoTabularViewController {
     @FXML
     public TableView tableView;
 
-    public void initialize(String client) throws IOException
+    public void initialize(String client,String collectionName) throws IOException
     {
         MongoClient mongoClient = new MongoClient(client);
         DB db = mongoClient.getDB("review-test");
-        DBCollection collection = db.getCollection("BazaarVoiceReviews");
+        DBCollection collection = db.getCollection(collectionName);
         DBObject dbObject = collection.findOne();
         Set<String> keySet = dbObject.keySet();
 

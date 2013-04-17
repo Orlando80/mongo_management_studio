@@ -1,0 +1,8 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.text.Text?>
+<GridPane>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="Database address"/>
+    <Text GridPane.columnIndex="1" GridPane.rowIndex="0" />
+</GridPane>
