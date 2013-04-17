@@ -28,13 +28,11 @@
         <TreeView fx:id="Databases">
 
         </TreeView>
-    <TabPane prefWidth="600.0">
-        <Tab text="Home">
-            <TableView id="tableView">
-            </TableView>
-        </Tab>
+    <TabPane fx:id="tabPanel">
+
     </TabPane>
     </items>
     </SplitPane>
     </center>
+
 </BorderPane>
