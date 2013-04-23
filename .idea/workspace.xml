@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/DataObjects/Database.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Presentation/mongoTreeView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/loginWindow.fxml" afterPath="$PROJECT_DIR$/src/Presentation/loginWindow.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/DataManagementStudio.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MongoDataRepository/MongoDataRepository.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Domain/DataObjects/Database.java" afterPath="$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MongoManagementStudio.iml" afterPath="$PROJECT_DIR$/MongoManagementStudio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/mainWindow.fxml" afterPath="$PROJECT_DIR$/src/Presentation/mainWindow.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml" afterPath="$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -21,17 +23,21 @@
     <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366200409180" ignored="false" />
     <file path="/mongoTabularView.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366298040909" ignored="false" />
     <file path="/mongoTabularViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366213078947" ignored="false" />
-    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366386275492" ignored="false" />
+    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366744488314" ignored="false" />
     <file path="/MongoTabularViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366299141423" ignored="false" />
     <file path="/*.regexp" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366214296882" ignored="false" />
     <file path="/ContextMenuTree.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366226796474" ignored="false" />
     <file path="/loginWindow.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366293276549" ignored="false" />
-    <file path="/mainController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366385055565" ignored="false" />
+    <file path="/mainController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366749053688" ignored="false" />
     <file path="/mainWindow.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366382229702" ignored="false" />
     <file path="/loginController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366291898097" ignored="false" />
     <file path="/Database.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366291614422" ignored="false" />
     <file path="/mongoTreeView.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366310869401" ignored="false" />
     <file path="/MongoTreeViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366312151343" ignored="false" />
+    <file path="/DatabaseTree.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366747481685" ignored="false" />
+    <file path="/IDataRepository.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366747512127" ignored="false" />
+    <file path="/Tree.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366748555041" ignored="false" />
+    <file path="/MongoDataRepository.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366747779460" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +90,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="142" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
+      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="143" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -114,7 +120,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="168" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
+      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="169" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="85" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -139,31 +160,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="mainController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="76" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+            <state line="92" column="45" selection-start="2771" selection-end="2771" vertical-scroll-proportion="1.6167665">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1398#1408#0" expanded="true" />
+                <element signature="e#2215#2225#0" expanded="true" />
+                <element signature="e#2560#2570#0" expanded="true" />
+                <element signature="e#2864#4537#0" expanded="true" />
+                <element signature="e#3095#3105#0" expanded="true" />
+                <element signature="e#3678#3960#0" expanded="true" />
+                <element signature="e#3929#3930#0" expanded="true" />
+                <element signature="e#4012#4291#0" expanded="true" />
+                <element signature="e#4260#4261#0" expanded="true" />
+                <element signature="e#4526#4527#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoDataRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="58" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#553#563#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDataRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="70" selection-start="323" selection-end="357" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java">
+      <file leaf-file-name="Tree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="17" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.33333334">
+            <state line="49" column="24" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1296#1306#0" expanded="true" />
-                <element signature="e#2274#2284#0" expanded="true" />
-                <element signature="e#2431#2441#0" expanded="true" />
-                <element signature="e#3134#4795#0" expanded="true" />
-                <element signature="e#3365#3375#0" expanded="true" />
-                <element signature="e#3936#4218#0" expanded="true" />
-                <element signature="e#4187#4188#0" expanded="true" />
-                <element signature="e#4270#4549#0" expanded="true" />
-                <element signature="e#4518#4519#0" expanded="true" />
-                <element signature="e#4784#4785#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,33 +233,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoTreeViewController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="145" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1087#1095#0" expanded="true" />
-                <element signature="e#1265#1273#0" expanded="true" />
-                <element signature="e#1403#1411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Database.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/DataObjects/Database.java">
+        <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="13" selection-start="1177" selection-end="1178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainWindow.fxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/mainWindow.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="68" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
+            <state line="18" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -222,7 +254,7 @@
       <file leaf-file-name="loginController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/loginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -239,15 +271,6 @@
                 <element signature="e#2206#2606#0" expanded="true" />
                 <element signature="e#2591#2592#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mongoTabularView.fxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="1093" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -270,21 +293,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/MongoTabularViewController.java" />
-        <option value="$PROJECT_DIR$/src/sample/ContextMenuTree.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/Presentation/Main.java" />
-        <option value="$PROJECT_DIR$/src/Presentation/mainController.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Domain/DataObjects/Database.java" />
-        <option value="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" />
         <option value="$PROJECT_DIR$/src/Presentation/loginWindow.fxml" />
         <option value="$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml" />
         <option value="$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" />
         <option value="$PROJECT_DIR$/src/Presentation/mongoTreeView.fxml" />
         <option value="$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" />
         <option value="$PROJECT_DIR$/src/Presentation/mainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/Tree.java" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/DatabaseTree.java" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java" />
+        <option value="$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java" />
         <option value="$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" />
       </list>
     </option>
@@ -409,11 +432,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="MongoDataRepository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoDataRepository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoRepository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mongo-2.10.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataObjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataService" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,6 +581,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Repository" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -602,17 +746,17 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="7" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.74740124" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.74740124" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39550266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39550266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -625,8 +769,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21377331" sideWeight="0.6044974" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26984128" sideWeight="0.956777" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21377331" sideWeight="0.73015875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26984128" sideWeight="0.956777" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -700,34 +844,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/mongo-2.10.1.jar!/com/mongodb/Mongo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="9" selection-start="4382" selection-end="4382" vertical-scroll-proportion="-7.32">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/event/Event.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/event/EventType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="51" selection-start="856" selection-end="856" vertical-scroll-proportion="0.5444646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/fxml/FXMLLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="20" selection-start="15212" selection-end="15212" vertical-scroll-proportion="0.33271375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Presentation/ContextMenuTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -745,22 +861,6 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="76" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/DataObjects/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="13" selection-start="1177" selection-end="1178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -816,21 +916,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java">
+    <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="17" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.33333334">
+        <state line="11" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1296#1306#0" expanded="true" />
-            <element signature="e#2274#2284#0" expanded="true" />
-            <element signature="e#2431#2441#0" expanded="true" />
-            <element signature="e#3134#4795#0" expanded="true" />
-            <element signature="e#3365#3375#0" expanded="true" />
-            <element signature="e#3936#4218#0" expanded="true" />
-            <element signature="e#4187#4188#0" expanded="true" />
-            <element signature="e#4270#4549#0" expanded="true" />
-            <element signature="e#4518#4519#0" expanded="true" />
-            <element signature="e#4784#4785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="70" selection-start="323" selection-end="357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="58" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="24" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="45" selection-start="2771" selection-end="2771" vertical-scroll-proportion="1.6167665">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1398#1408#0" expanded="true" />
+            <element signature="e#2215#2225#0" expanded="true" />
+            <element signature="e#2560#2570#0" expanded="true" />
+            <element signature="e#2864#4537#0" expanded="true" />
+            <element signature="e#3095#3105#0" expanded="true" />
+            <element signature="e#3678#3960#0" expanded="true" />
+            <element signature="e#3929#3930#0" expanded="true" />
+            <element signature="e#4012#4291#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4526#4527#0" expanded="true" />
           </folding>
         </state>
       </provider>

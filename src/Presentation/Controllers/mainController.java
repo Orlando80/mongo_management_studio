@@ -1,6 +1,9 @@
 package Presentation.Controllers;
 
+import DataService.DatabaseTree;
+import DataService.Tree;
 import Domain.DataObjects.Database;
+import MongoRepository.MongoDataRepository;
 import com.mongodb.CommandResult;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -69,28 +72,26 @@ public class mainController {
         stage.setScene(new Scene(view,400,300));
         stage.showAndWait();
         Database connection = c.getConnectionParameters();
-        databaseContext = connection;
-        MongoClient mongoClient = new MongoClient(connection.getInstanceAddress() + ':' + connection.getDatabasePort());
-        List<String> dbs = mongoClient.getDatabaseNames();
-        TreeItem<Database> root = Databases.getRoot();
-        TreeItem<Database> node = new TreeItem<Database>(connection);
-        root.getChildren().add(node);
 
-        for(String item: dbs)
-        {
-            TreeItem<Database> treeItem = new TreeItem<Database>(new Database(item,connection.getInstanceAddress(),connection.getDatabasePort(),"",""));
-            DB db = mongoClient.getDB(item);
-            Set<String> collections = db.getCollectionNames();
-            for (String collection: collections)
-            {
-               Database object = new Database(item,connection.getInstanceAddress(),connection.getDatabasePort(),"","");
-                object.CollectionName = collection;
-               treeItem.getChildren().add(new TreeItem<Database>(object));
-            }
-            node.getChildren().add(treeItem);
-        }
+
+        Tree<Database> collections = new DatabaseTree(new MongoDataRepository()).GetDatabaseTree(connection);
+        TreeItem<Database> root = new TreeItem<Database>(collections.getRoot());
+        GenerateChildren(root, collections.getChildren());
+
         Databases.setRoot(root);
 
+    }
+
+    private void GenerateChildren(TreeItem<Database> root,List<Tree.Node<Database>> children) {
+        for( Tree.Node<Database> item: children)
+        {
+            TreeItem<Database> treeItem = new TreeItem<Database>(item.getData());
+            if(item.getChildren().size() > 0)
+            {
+                GenerateChildren(treeItem, item.getChildren());
+            }
+            root.getChildren().add(treeItem);
+        }
     }
 
     private void setUpContextMenu()
@@ -108,7 +109,7 @@ public class mainController {
                         {
                             ContextMenu menu = new ContextMenu();
                             MenuItem itemMenu = new MenuItem("Open Table View...");
-                            MenuItem treeMenu = new MenuItem("Open Tree View...");
+                            MenuItem treeMenu = new MenuItem("Open DataService.Tree View...");
                             itemMenu.setOnAction(new EventHandler<ActionEvent>() {
                                 @Override
                                 public void handle(ActionEvent actionEvent) {
@@ -165,7 +166,7 @@ public class mainController {
           {
             MongoClient mongoClient = new MongoClient(databaseContext.getInstanceAddress() + ':' + databaseContext.getDatabasePort());
             DB db = mongoClient.getDB("reviews");
-              Object result = db.eval(cmdWindow.getText().trim().replace("\n",""));
+              Object result = db.eval(cmdWindow.getText().trim().replace("\n", ""));
               cmdWindow.setText(result.toString());
           }
           catch(Exception ex)

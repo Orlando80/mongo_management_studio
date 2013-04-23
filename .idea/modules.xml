@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataManagementStudio/DataManagementStudio.iml" filepath="$PROJECT_DIR$/DataManagementStudio/DataManagementStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MongoDataRepository/MongoDataRepository.iml" filepath="$PROJECT_DIR$/MongoDataRepository/MongoDataRepository.iml" />
       <module fileurl="file://$PROJECT_DIR$/MongoManagementStudio.iml" filepath="$PROJECT_DIR$/MongoManagementStudio.iml" />
     </modules>
   </component>

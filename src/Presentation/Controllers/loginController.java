@@ -10,13 +10,6 @@ import javafx.stage.Stage;
 
 
 
-/**
- * Created with IntelliJ IDEA.
- * User: orlando
- * Date: 18/04/2013
- * Time: 11:01
- * To change this template use File | Settings | File Templates.
- */
 public class loginController {
     @FXML public GridPane window;
     @FXML public TextField address;

@@ -17,6 +17,8 @@
         <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="DataManagementStudio" />
+    <orderEntry type="module" module-name="MongoDataRepository" />
   </component>
 </module>
 
