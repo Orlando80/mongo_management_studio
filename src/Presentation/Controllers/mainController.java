@@ -1,5 +1,7 @@
 package Presentation.Controllers;
 
+import Domain.DataObjects.Database;
+import com.mongodb.CommandResult;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -7,26 +9,36 @@ import com.mongodb.MongoClient;
 import com.mongodb.DB;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.JavaFXBuilderFactory;
+
+
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.TextFieldTreeCell;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyCodeCombination;
+import javafx.scene.input.KeyCombination;
+import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import javafx.util.Callback;
+
 import java.io.IOException;
 import java.net.URL;
-import java.util.*;
+import java.util.List;
+import java.util.Set;
 
 public class mainController {
-    @FXML public TreeView<String> Databases;
+    @FXML public TreeView<Database> Databases;
 
     @FXML public TabPane tabPanel;
+
+    @FXML public TextArea cmdWindow;
 
     @FXML
     public void openConnection(ActionEvent event)
     {
         try {
-        mongoTree();
+            mongoTree();
             setUpContextMenu();
         }
         catch(Exception ex)
@@ -34,26 +46,48 @@ public class mainController {
             System.out.print(ex.getMessage());
         }
     }
+
+    private Database databaseContext;
+
+    public void initialize()
+    {
+        TreeItem<Database> root = new TreeItem<Database>(new Database("Mongo instances","","","",""));
+        Databases.setRoot(root);
+    }
+
     @FXML
     private void mongoTree() throws IOException
     {
         Stage stage = new Stage();
-        Parent view = FXMLLoader.load(getClass().getResource("/Presentation/loginWindow.fxml"));
-         stage.setScene(new Scene(view,300,200));
+        URL location = getClass().getResource("/Presentation/loginWindow.fxml");
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(location);
+        loader.setBuilderFactory(new JavaFXBuilderFactory());
+        Parent view = (Parent) loader.load();
+        loginController c = loader.getController();
+
+        stage.setScene(new Scene(view,400,300));
         stage.showAndWait();
-        TreeItem <String> root = new TreeItem<String>("Localhost:27017");
-        MongoClient mongoClient = new MongoClient("localhost");
+        Database connection = c.getConnectionParameters();
+        databaseContext = connection;
+        MongoClient mongoClient = new MongoClient(connection.getInstanceAddress() + ':' + connection.getDatabasePort());
         List<String> dbs = mongoClient.getDatabaseNames();
+        TreeItem<Database> root = Databases.getRoot();
+        TreeItem<Database> node = new TreeItem<Database>(connection);
+        root.getChildren().add(node);
+
         for(String item: dbs)
         {
-            TreeItem<String> treeItem = new TreeItem<String>(item);
+            TreeItem<Database> treeItem = new TreeItem<Database>(new Database(item,connection.getInstanceAddress(),connection.getDatabasePort(),"",""));
             DB db = mongoClient.getDB(item);
             Set<String> collections = db.getCollectionNames();
             for (String collection: collections)
             {
-               treeItem.getChildren().add(new TreeItem<String>(collection));
+               Database object = new Database(item,connection.getInstanceAddress(),connection.getDatabasePort(),"","");
+                object.CollectionName = collection;
+               treeItem.getChildren().add(new TreeItem<Database>(object));
             }
-            root.getChildren().add(treeItem);
+            node.getChildren().add(treeItem);
         }
         Databases.setRoot(root);
 
@@ -61,26 +95,33 @@ public class mainController {
 
     private void setUpContextMenu()
     {
-        Databases.setCellFactory(new Callback<TreeView<String>, TreeCell<String>>() {
+        Databases.setCellFactory(new Callback<TreeView<Database>, TreeCell<Database>>() {
             @Override
-            public TreeCell<String> call(TreeView<String> stringTreeView) {
-                TextFieldTreeCell<String> cell = new TextFieldTreeCell<String>()
+            public TreeCell<Database> call(TreeView<Database> stringTreeView) {
+                TextFieldTreeCell<Database> cell = new TextFieldTreeCell<Database>()
                 {
                   @Override
-                public void updateItem(String item, boolean empty)
+                public void updateItem(Database item, boolean empty)
                   {
                       super.updateItem(item,empty);
                         if (!empty &&  getTreeItem().isLeaf())
                         {
                             ContextMenu menu = new ContextMenu();
                             MenuItem itemMenu = new MenuItem("Open Table View...");
+                            MenuItem treeMenu = new MenuItem("Open Tree View...");
                             itemMenu.setOnAction(new EventHandler<ActionEvent>() {
                                 @Override
                                 public void handle(ActionEvent actionEvent) {
                                     mongoTabularView(getItem());
                                 }
                             });
-                            menu.getItems().add(itemMenu);
+                            treeMenu.setOnAction(new EventHandler<ActionEvent>() {
+                                @Override
+                                public void handle(ActionEvent actionEvent) {
+                                    mongoTreeView(getItem());
+                                }
+                            });
+                            menu.getItems().addAll(itemMenu, treeMenu);
                             setContextMenu(menu);
 
 
@@ -95,9 +136,46 @@ public class mainController {
 
 
     }
+    private void mongoTreeView(Database database)
+    {
+        try
+        {
+            URL location = getClass().getResource("/Presentation/mongoTreeView.fxml");
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(location);
+            loader.setBuilderFactory(new JavaFXBuilderFactory());
+            Parent root = (Parent) loader.load();
+            MongoTreeViewController c = loader.getController();
+
+            c.initialize(database);
+            Tab tab = new Tab(database.CollectionName);
+            tab.setContent(root);
+            tabPanel.getTabs().add(tab);
+        }
+        catch(Exception ex)
+        {}
+    }
+
+    @FXML public void keyReleased(KeyEvent event)
+    {
+         KeyCombination combo = new KeyCodeCombination(KeyCode.ENTER);
+      if (combo.match(event)) {
+
+          try
+          {
+            MongoClient mongoClient = new MongoClient(databaseContext.getInstanceAddress() + ':' + databaseContext.getDatabasePort());
+            DB db = mongoClient.getDB("reviews");
+              Object result = db.eval(cmdWindow.getText().trim().replace("\n",""));
+              cmdWindow.setText(result.toString());
+          }
+          catch(Exception ex)
+          {}
+        }
+
+    }
 
 
-    private void mongoTabularView(String collectionName)  {
+    private void mongoTabularView(Database database)  {
         try
         {
         URL location = getClass().getResource("/Presentation/mongoTabularView.fxml");
@@ -107,8 +185,8 @@ public class mainController {
         Parent root = (Parent) loader.load();
         MongoTabularViewController c = loader.getController();
 
-        c.initialize("localhost",collectionName);
-        Tab tab = new Tab(collectionName);
+        c.initialize(database);
+        Tab tab = new Tab(database.CollectionName);
         tab.setContent(root);
         tabPanel.getTabs().add(tab);
         }

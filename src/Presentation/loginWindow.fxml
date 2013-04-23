@@ -2,7 +2,26 @@
 <?import javafx.scene.control.Label?>
 
 <?import javafx.scene.text.Text?>
-<GridPane>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="Presentation.Controllers.loginController" fx:id="window">
+    <padding>
+        <Insets right="10" left="10" top="20" bottom="10"/>
+    </padding>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="40"/>
+        <ColumnConstraints percentWidth="60"/>
+    </columnConstraints>
     <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="Database address"/>
-    <Text GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="address" />
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="Database port"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="port" text="27017"/>
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="Credentials name"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="name" />
+    <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="Credential password"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="password" />
+    <Button text="Connect" onAction="#login" GridPane.columnIndex="1" GridPane.rowIndex="4" defaultButton="true"></Button>
 </GridPane>

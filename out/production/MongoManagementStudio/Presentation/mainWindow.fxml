@@ -5,6 +5,8 @@
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TreeView?>
 <?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Label?>
 <BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="Presentation.Controllers.mainController">
     <top>
     <MenuBar>
@@ -15,15 +17,23 @@
     </top>
     <center>
     <SplitPane dividerPositions="0.3">
-    <items>
+
         <TreeView fx:id="Databases">
 
         </TreeView>
+        <SplitPane orientation="VERTICAL" dividerPositions="0.8">
     <TabPane fx:id="tabPanel">
 
     </TabPane>
-    </items>
+            <BorderPane>
+                <top>
+                    <Label>Command window:</Label>
+                </top>
+                <center>
+                    <TextArea fx:id="cmdWindow" onKeyReleased="#keyReleased" />
+                </center>
+            </BorderPane>
+    </SplitPane>
     </SplitPane>
     </center>
-
 </BorderPane>

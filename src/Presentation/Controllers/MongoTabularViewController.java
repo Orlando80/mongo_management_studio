@@ -1,30 +1,79 @@
 package Presentation.Controllers;
 
+import Domain.DataObjects.Database;
 import com.mongodb.*;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.util.Callback;
 
 import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.Hashtable;
 import java.util.Set;
 
 
 public class MongoTabularViewController {
 
+    private int pageSize = 20;
+    @FXML public Label pageNumberControl;
+    @FXML public TextField pageSizeControl;
+    private int page = 0;
+    private Database database;
     @FXML
     public TableView tableView;
-
-    public void initialize(String client,String collectionName) throws IOException
+    @FXML public void previous(ActionEvent event)
     {
-        MongoClient mongoClient = new MongoClient(client);
-        DB db = mongoClient.getDB("review-test");
-        DBCollection collection = db.getCollection(collectionName);
+          if(page> 0) {
+              page--;
+             try
+             {
+                FillTable();
+             }
+             catch(Exception ex)
+             {}
+          }
+    }
+    @FXML public void next(ActionEvent event)
+    {
+        page++;
+        try
+        {
+            FillTable();
+        }
+        catch(Exception ex)
+        {}
+    }
+    @FXML public void refresh(ActionEvent event)
+    {
+        try
+        {
+            FillTable();
+        }
+        catch(Exception ex)
+        {
+
+        }
+    }
+
+    public void initialize(Database database) throws IOException
+    {
+        this.database = database;
+        pageSizeControl.setText(Integer.toString(pageSize));
+        FillTable();
+    }
+
+    private void FillTable() throws UnknownHostException {
+        MongoClient mongoClient = new MongoClient(database.getInstanceAddress());
+        DB db = mongoClient.getDB(database.getDatabaseName());
+        DBCollection collection = db.getCollection(database.CollectionName);
         DBObject dbObject = collection.findOne();
         Set<String> keySet = dbObject.keySet();
 
@@ -39,9 +88,14 @@ public class MongoTabularViewController {
             });
             tableView.getColumns().add(column);
         }
+        pageSize = Integer.parseInt(pageSizeControl.getText());
 
-        DBCursor cursor = collection.find().limit(30);
+        if (pageSize == 0 ) pageSize = 20;
+        DBCursor cursor = collection.find().skip(page * pageSize).limit(pageSize);
         ObservableList<Hashtable> data = FXCollections.observableArrayList();
+        int pages = (int)Math.floor(cursor.count()/ pageSize);
+        String pageText = "Page " + page + " of " + pages;
+        pageNumberControl.setText(pageText);
         while(cursor.hasNext())
         {
             DBObject obj = cursor.next();
