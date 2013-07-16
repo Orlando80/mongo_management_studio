@@ -2,42 +2,208 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/DataManagementStudio.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MongoDataRepository/MongoDataRepository.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Domain/DataObjects/Database.java" afterPath="$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MongoManagementStudio.iml" afterPath="$PROJECT_DIR$/MongoManagementStudio.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Property.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Presentation/ContextMenuTree.java" afterPath="$PROJECT_DIR$/src/Resources/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java" afterPath="$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" afterPath="$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java" afterPath="$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java" afterPath="$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" afterPath="$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/mainWindow.fxml" afterPath="$PROJECT_DIR$/src/Presentation/mainWindow.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml" afterPath="$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359379373495" ignored="false" />
+    <file path="/Main.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366903906685" ignored="false" />
     <file path="/Controller.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366233247427" ignored="false" />
     <file path="/sample.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366226205838" ignored="false" />
-    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366200409180" ignored="false" />
-    <file path="/mongoTabularView.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366298040909" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1374005755338" ignored="false" />
+    <file path="/mongoTabularView.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478733543" ignored="false" />
     <file path="/mongoTabularViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366213078947" ignored="false" />
-    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366744488314" ignored="false" />
-    <file path="/MongoTabularViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366299141423" ignored="false" />
+    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366816705553" ignored="false" />
+    <file path="/MongoTabularViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367701703780" ignored="false" />
     <file path="/*.regexp" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366214296882" ignored="false" />
     <file path="/ContextMenuTree.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366226796474" ignored="false" />
     <file path="/loginWindow.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366293276549" ignored="false" />
-    <file path="/mainController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366749053688" ignored="false" />
-    <file path="/mainWindow.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366382229702" ignored="false" />
+    <file path="/mainController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367053909005" ignored="false" />
+    <file path="/mainWindow.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367051762984" ignored="false" />
     <file path="/loginController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366291898097" ignored="false" />
-    <file path="/Database.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366291614422" ignored="false" />
+    <file path="/Database.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367053120625" ignored="false" />
     <file path="/mongoTreeView.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366310869401" ignored="false" />
-    <file path="/MongoTreeViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366312151343" ignored="false" />
-    <file path="/DatabaseTree.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366747481685" ignored="false" />
-    <file path="/IDataRepository.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366747512127" ignored="false" />
+    <file path="/MongoTreeViewController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366750835671" ignored="false" />
+    <file path="/DatabaseTree.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366970062984" ignored="false" />
+    <file path="/IDataRepository.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367053280360" ignored="false" />
     <file path="/Tree.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366748555041" ignored="false" />
-    <file path="/MongoDataRepository.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366747779460" ignored="false" />
+    <file path="/MongoDataRepository.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367053259409" ignored="false" />
+    <file path="/stylesheet.css" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1366876894017" ignored="false" />
+    <file path="/Property.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367053079568" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_1_4.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598105" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_6.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/spring-form.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/j2ee_web_services_client_1_1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_3.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/persistence.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_1_3.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_6.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-fragment_3_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598106" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/profiles-1.0.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_1_2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xsl" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_6.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_6.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JBoss/lib/jbossIntegration.jar!/descriptors/jboss-deployment-structure-1_1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JBoss/lib/jbossIntegration.jar!/descriptors/jboss-deployment-structure-1_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/xml.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic_2_0.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598107" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf-ui.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/FlexCompilerSchema.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/composite.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.7.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/ui.taglib.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.6.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/javaee_web_services_1_2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic.taglib.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesconfig_1_2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesconfig_1_1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf-ui-2_0.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598108" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.3.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesconfig_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl-fn.taglib.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf_core_2_0.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl.core.facelets.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.7.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl.fn.facelets.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.6.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/javaee_5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/composite.taglib.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.4.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/javaee_web_services_client_1_2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.3.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598109" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facelettaglibrary_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/mojarra_ext.taglib.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesuicomponent_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-partialresponse_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf_core.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-util-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl-core.taglib.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-task-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/facelets_jsf_core.taglib.xml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-cache-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-aop-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-aop-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-aop-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-beans-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-context-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-beans-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-util-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-aop-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-beans-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jms-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-oxm-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-util-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jms-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-task-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-context-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-beans-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598111" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-mvc-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-oxm-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jee-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jms-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-context-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tool-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tool-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-mvc-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-util-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jee-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tool-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-task-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jee-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598112" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jdbc-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-aop-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-util-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-beans-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-mvc-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jee-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jms-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tool-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/SpringBatch/lib/SpringBatch.jar!/schemas/spring-batch-2.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jee-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jdbc-3.1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-oxm-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-cache-3.2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-context-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tool-2.5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598113" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jdbc-3.0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_2_1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_1_4.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598114" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/j2ee_1_4.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_3_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/persistence_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/spring.tld" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_1_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_5.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-facesconfig_1_2.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_1.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_4.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-common_3_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_2_0.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1367478598115" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/javaFX/lib/javaFX.jar!/org/jetbrains/plugins/javaFX/fxml/fx.xsd" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1374005834667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +211,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -52,7 +223,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -89,8 +259,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="143" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" line="79" class="Presentation.Controllers.MongoTabularViewController" package="Presentation.Controllers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -105,7 +275,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" line="36" class="Presentation.Controllers.MongoTreeViewController" package="Presentation.Controllers">
+      <breakpoint url="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" line="34" class="DataService.DatabaseTree" package="DataService">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -120,7 +290,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="169" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
+      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="106" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -135,7 +305,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" line="85" class="Presentation.Controllers.mainController" package="Presentation.Controllers">
+      <breakpoint url="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" line="31" class="Presentation.Controllers.MongoTreeViewController" package="Presentation.Controllers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -151,6 +321,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -160,31 +331,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mainController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="45" selection-start="2771" selection-end="2771" vertical-scroll-proportion="1.6167665">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1398#1408#0" expanded="true" />
-                <element signature="e#2215#2225#0" expanded="true" />
-                <element signature="e#2560#2570#0" expanded="true" />
-                <element signature="e#2864#4537#0" expanded="true" />
-                <element signature="e#3095#3105#0" expanded="true" />
-                <element signature="e#3678#3960#0" expanded="true" />
-                <element signature="e#3929#3930#0" expanded="true" />
-                <element signature="e#4012#4291#0" expanded="true" />
-                <element signature="e#4260#4261#0" expanded="true" />
-                <element signature="e#4526#4527#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MongoDataRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+            <state line="36" column="34" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,28 +345,7 @@
       <file leaf-file-name="DatabaseTree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="58" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#553#563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDataRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="70" selection-start="323" selection-end="357" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="24" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+            <state line="18" column="89" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,39 +353,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mongoTreeView.fxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/mongoTreeView.fxml">
+      <file leaf-file-name="mainController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="50" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+            <state line="63" column="16" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.4893617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java">
+      <file leaf-file-name="MongoManagementStudio.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoManagementStudio.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginWindow.fxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/loginWindow.fxml">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="102" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+            <state line="20" column="75" selection-start="687" selection-end="734" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/loginController.java">
+      <file leaf-file-name="sa.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/lib/sa-jdi.jar!/sa.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+            <state line="1" column="82" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongoTabularView.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="153" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1367478778000" expanded="true" signature="486:515" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoTreeViewController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="127" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainWindow.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Presentation/mainWindow.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="16" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1367052445000" expanded="true" signature="1022:1051" placeholder="{...}" />
+                <marker date="1367052445000" expanded="true" signature="1109:1129" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -265,12 +424,8 @@
       <file leaf-file-name="MongoTabularViewController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="119" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2206#2606#0" expanded="true" />
-                <element signature="e#2591#2592#0" expanded="true" />
-              </folding>
+            <state line="77" column="40" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -293,22 +448,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Domain/DataObjects/Database.java" />
-        <option value="$PROJECT_DIR$/src/Presentation/loginWindow.fxml" />
-        <option value="$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml" />
-        <option value="$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" />
-        <option value="$PROJECT_DIR$/src/Presentation/mongoTreeView.fxml" />
-        <option value="$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" />
-        <option value="$PROJECT_DIR$/src/Presentation/mainWindow.fxml" />
-        <option value="$PROJECT_DIR$/src/Presentation/Controllers/loginController.java" />
         <option value="$PROJECT_DIR$/DataManagementStudio/src/Tree.java" />
         <option value="$PROJECT_DIR$/DataManagementStudio/src/DatabaseTree.java" />
-        <option value="$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" />
-        <option value="$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java" />
-        <option value="$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java" />
         <option value="$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java" />
+        <option value="$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java" />
+        <option value="$PROJECT_DIR$/src/Resources/stylesheet.css" />
+        <option value="$PROJECT_DIR$/out/production/MongoManagementStudio/Presentation/mainWindow.fxml" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java" />
+        <option value="$PROJECT_DIR$/src/Presentation/mainWindow.fxml" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Property.java" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java" />
+        <option value="$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java" />
+        <option value="$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java" />
         <option value="$PROJECT_DIR$/src/Presentation/Controllers/mainController.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml" />
+        <option value="$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java" />
       </list>
     </option>
   </component>
@@ -317,6 +472,22 @@
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -334,7 +505,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -346,6 +517,115 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoDataRepository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain.DataObjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,6 +637,10 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -379,6 +663,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,28 +699,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Presentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MongoManagementStudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MongoManagementStudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Presentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,24 +748,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongo-2.10.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MongoManagementStudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MongoManagementStudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="DataManagementStudio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -505,10 +767,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -556,10 +814,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoManagementStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,17 +840,18 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.sourceCode" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -600,19 +871,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -641,6 +899,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -746,36 +1017,36 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.74740124" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.74740124" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39550266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39417988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.73015875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3400287" sideWeight="0.73280424" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32671958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32539684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21377331" sideWeight="0.73015875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26984128" sideWeight="0.956777" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19440459" sideWeight="0.6706349" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26719576" sideWeight="0.9948186" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.74740124" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -839,150 +1110,133 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MongoManagementStudio" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MongoManagementStudio" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Presentation/ContextMenuTree.java">
+    <entry file="jar://$PROJECT_DIR$/libs/mongo-2.10.1.jar!/org/bson/BasicBSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.022058824" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/mongo-2.10.1.jar!/com/mongodb/DBCursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="15" selection-start="3874" selection-end="3874" vertical-scroll-proportion="0.16791604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="44" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoManagementStudio.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/scene/control/MenuItem.class">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="16" selection-start="5837" selection-end="5837" vertical-scroll-proportion="0.6502058">
+        <state line="20" column="75" selection-start="687" selection-end="734" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/lib/sa-jdi.jar!/sa.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="76" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+        <state line="1" column="82" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Presentation/mongoTabularView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1093" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="145" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+        <state line="12" column="153" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1087#1095#0" expanded="true" />
-            <element signature="e#1265#1273#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
+            <marker date="1367478778000" expanded="true" signature="486:515" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/mainWindow.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="68" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/mongoTreeView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTabularViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="119" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2206#2606#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/loginWindow.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="102" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+        <state line="77" column="40" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Domain/DataObjects/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/Repository/IDataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="70" selection-start="323" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/DatabaseTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="58" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+        <state line="18" column="89" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#553#563#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataManagementStudio/src/DataService/Tree.java">
+    <entry file="file://$PROJECT_DIR$/MongoDataRepository/src/MongoRepository/MongoDataRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="24" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+        <state line="36" column="34" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/MongoTreeViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="127" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presentation/mainWindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1367052445000" expanded="true" signature="1022:1051" placeholder="{...}" />
+            <marker date="1367052445000" expanded="true" signature="1109:1129" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Presentation/Controllers/mainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="45" selection-start="2771" selection-end="2771" vertical-scroll-proportion="1.6167665">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1398#1408#0" expanded="true" />
-            <element signature="e#2215#2225#0" expanded="true" />
-            <element signature="e#2560#2570#0" expanded="true" />
-            <element signature="e#2864#4537#0" expanded="true" />
-            <element signature="e#3095#3105#0" expanded="true" />
-            <element signature="e#3678#3960#0" expanded="true" />
-            <element signature="e#3929#3930#0" expanded="true" />
-            <element signature="e#4012#4291#0" expanded="true" />
-            <element signature="e#4260#4261#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
-          </folding>
+        <state line="63" column="16" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.4893617">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,6 +1306,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

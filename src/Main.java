@@ -10,12 +10,16 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/Presentation/mainWindow.fxml"));
         primaryStage.setTitle("Mongodb Management Studio");
-        primaryStage.setScene(new Scene(root, 800, 700));
+        Scene scene =  new Scene(root, 800, 700);
+        scene.getStylesheets().add("/Resources/stylesheet.css");
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 
 
     public static void main(String[] args) {
+        System.setProperty("com.apple.mrj.application.apple.menu.about.name", "MM Studio");
         launch(args);
+
     }
 }

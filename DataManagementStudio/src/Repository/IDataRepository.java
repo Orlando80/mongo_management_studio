@@ -1,6 +1,10 @@
 package Repository;
 
+import Domain.DataObjects.Property;
+
+import java.util.Hashtable;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,4 +17,6 @@ public interface IDataRepository {
     List<String> getDbs(String connectionString);
 
     List<String> getCollectionNames(String connectionString, String db);
+
+    Set<Property> getInstanceProperties(String connectionString);
 }

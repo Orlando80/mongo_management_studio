@@ -1,0 +1,22 @@
+.shiny-orange {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 1 5 1 5;
+}
+
+.normal-text {
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 1 5 1 5;
+}
+
+.normal-text-nobold
+{
+    -fx-text-fill: #654b00;
+    -fx-font-weight: normal;
+    -fx-font-size: 14px;
+    -fx-padding: 1 5 1 5;
+}

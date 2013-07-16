@@ -3,13 +3,16 @@ package Presentation.Controllers;
 import DataService.DatabaseTree;
 import DataService.Tree;
 import Domain.DataObjects.Database;
+import Domain.DataObjects.Property;
 import MongoRepository.MongoDataRepository;
-import com.mongodb.CommandResult;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import com.mongodb.MongoClient;
-import com.mongodb.DB;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.JavaFXBuilderFactory;
 
@@ -27,18 +30,18 @@ import javafx.util.Callback;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Hashtable;
 import java.util.List;
-import java.util.Set;
 
 public class mainController {
     @FXML public TreeView<Database> Databases;
 
     @FXML public TabPane tabPanel;
 
+    @FXML public TableView tblProperties;
     @FXML public TextArea cmdWindow;
 
-    @FXML
-    public void openConnection(ActionEvent event)
+    @FXML public void openConnection(ActionEvent event)
     {
         try {
             mongoTree();
@@ -46,26 +49,50 @@ public class mainController {
         }
         catch(Exception ex)
         {
-            System.out.print(ex.getMessage());
         }
     }
-
-    private Database databaseContext;
 
     public void initialize()
     {
         TreeItem<Database> root = new TreeItem<Database>(new Database("Mongo instances","","","",""));
+        Databases.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<TreeItem<Database>>() {
+            @Override
+            public void changed(ObservableValue<? extends TreeItem<Database>> observableValue, TreeItem<Database> databaseTreeItem, TreeItem<Database> databaseTreeItem2) {
+                if ( databaseTreeItem2.getValue().getProperties() != null)
+                {
+                ObservableList<Property> data = FXCollections.observableArrayList(databaseTreeItem2.getValue().getProperties());
+                tblProperties.setItems(data);
+                }
+                else
+                {
+                    tblProperties.setItems(null);
+                }
+            }
+        });
+        TableColumn<Property,String> columnProperty = new TableColumn<Property, String>("Property");
+        columnProperty.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<Property, String>, ObservableValue<String>>() {
+            @Override
+            public ObservableValue<String> call(TableColumn.CellDataFeatures<Property, String> propertyStringCellDataFeatures) {
+                return new SimpleStringProperty(propertyStringCellDataFeatures.getValue().getPropertyName());
+            }
+        });
+        TableColumn<Property,String> columnValue = new TableColumn<Property, String>("Value");
+        columnValue.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<Property, String>, ObservableValue<String>>() {
+            @Override
+            public ObservableValue<String> call(TableColumn.CellDataFeatures<Property, String> propertyStringCellDataFeatures) {
+                return new SimpleStringProperty(propertyStringCellDataFeatures.getValue().getPropertyValue());
+            }
+        });
+        columnProperty.prefWidthProperty().bind(tblProperties.widthProperty().divide(2));
+        columnValue.prefWidthProperty().bind(tblProperties.widthProperty().divide(2));
+        tblProperties.getColumns().addAll(columnProperty,columnValue);
         Databases.setRoot(root);
     }
 
-    @FXML
     private void mongoTree() throws IOException
     {
         Stage stage = new Stage();
-        URL location = getClass().getResource("/Presentation/loginWindow.fxml");
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(location);
-        loader.setBuilderFactory(new JavaFXBuilderFactory());
+        FXMLLoader loader = getFxmlLoader("/Presentation/loginWindow.fxml");
         Parent view = (Parent) loader.load();
         loginController c = loader.getController();
 
@@ -73,13 +100,11 @@ public class mainController {
         stage.showAndWait();
         Database connection = c.getConnectionParameters();
 
-
         Tree<Database> collections = new DatabaseTree(new MongoDataRepository()).GetDatabaseTree(connection);
         TreeItem<Database> root = new TreeItem<Database>(collections.getRoot());
         GenerateChildren(root, collections.getChildren());
 
-        Databases.setRoot(root);
-
+        Databases.getRoot().getChildren().add(root);
     }
 
     private void GenerateChildren(TreeItem<Database> root,List<Tree.Node<Database>> children) {
@@ -109,7 +134,7 @@ public class mainController {
                         {
                             ContextMenu menu = new ContextMenu();
                             MenuItem itemMenu = new MenuItem("Open Table View...");
-                            MenuItem treeMenu = new MenuItem("Open DataService.Tree View...");
+                            MenuItem treeMenu = new MenuItem("Open Tree View...");
                             itemMenu.setOnAction(new EventHandler<ActionEvent>() {
                                 @Override
                                 public void handle(ActionEvent actionEvent) {
@@ -124,10 +149,7 @@ public class mainController {
                             });
                             menu.getItems().addAll(itemMenu, treeMenu);
                             setContextMenu(menu);
-
-
                         }
-
                   }
                 };
 
@@ -141,15 +163,21 @@ public class mainController {
     {
         try
         {
-            URL location = getClass().getResource("/Presentation/mongoTreeView.fxml");
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(location);
-            loader.setBuilderFactory(new JavaFXBuilderFactory());
+            FXMLLoader loader = getFxmlLoader("/Presentation/mongoTreeView.fxml");
             Parent root = (Parent) loader.load();
             MongoTreeViewController c = loader.getController();
 
             c.initialize(database);
-            Tab tab = new Tab(database.CollectionName);
+            String tabName;
+            if(database.CollectionName.length() > 20) {
+                tabName = database.CollectionName.substring(0,20) + "...";
+            }
+            else
+            {
+                tabName = database.CollectionName;
+            }
+            Tab tab = new Tab(tabName);
+            tab.setStyle("-fx-background-color: #8bc6fc");
             tab.setContent(root);
             tabPanel.getTabs().add(tab);
         }
@@ -162,15 +190,6 @@ public class mainController {
          KeyCombination combo = new KeyCodeCombination(KeyCode.ENTER);
       if (combo.match(event)) {
 
-          try
-          {
-            MongoClient mongoClient = new MongoClient(databaseContext.getInstanceAddress() + ':' + databaseContext.getDatabasePort());
-            DB db = mongoClient.getDB("reviews");
-              Object result = db.eval(cmdWindow.getText().trim().replace("\n", ""));
-              cmdWindow.setText(result.toString());
-          }
-          catch(Exception ex)
-          {}
         }
 
     }
@@ -179,20 +198,34 @@ public class mainController {
     private void mongoTabularView(Database database)  {
         try
         {
-        URL location = getClass().getResource("/Presentation/mongoTabularView.fxml");
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(location);
-        loader.setBuilderFactory(new JavaFXBuilderFactory());
+        FXMLLoader loader = getFxmlLoader("/Presentation/mongoTabularView.fxml");
         Parent root = (Parent) loader.load();
         MongoTabularViewController c = loader.getController();
 
         c.initialize(database);
-        Tab tab = new Tab(database.CollectionName);
+        String tabName;
+        if(database.CollectionName.length() > 20) {
+            tabName = database.CollectionName.substring(0,20) + "...";
+        }
+            else
+        {
+            tabName = database.CollectionName;
+        }
+        Tab tab = new Tab(tabName);
         tab.setContent(root);
+        tab.setStyle("-fx-background-color: #e1bcfb");
         tabPanel.getTabs().add(tab);
         }
         catch(Exception ex)
         {}
+    }
+
+    private FXMLLoader getFxmlLoader(String path) {
+        URL location = getClass().getResource(path);
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(location);
+        loader.setBuilderFactory(new JavaFXBuilderFactory());
+        return loader;
     }
 }
 

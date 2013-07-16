@@ -1,10 +1,10 @@
 package MongoRepository;
 
+import Domain.DataObjects.Property;
 import Repository.IDataRepository;
 import com.mongodb.MongoClient;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class MongoDataRepository implements IDataRepository {
     @Override
@@ -31,5 +31,19 @@ public class MongoDataRepository implements IDataRepository {
         {
             return null;
         }
+    }
+
+    @Override
+    public Set<Property> getInstanceProperties(String connectionString) {
+       try {
+           MongoClient mongoClient = new MongoClient(connectionString);
+           Set<Property> properties = new HashSet<Property>();
+           properties.add(new Property("Version", mongoClient.getVersion()));
+           return properties;
+       }
+       catch(Exception ex)
+       {
+           return new HashSet<Property>();
+       }
     }
 }

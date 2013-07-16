@@ -15,7 +15,7 @@ public class DatabaseTree {
     public Tree<Database> GetDatabaseTree(Database connectionString)
     {
         List<String> dbs =_dataRepository.getDbs(connectionString.getInstanceAddress() + ":" + connectionString.getDatabasePort());
-
+         connectionString.setProperties(_dataRepository.getInstanceProperties(connectionString.getInstanceAddress() + ":" + connectionString.getDatabasePort()));
         Tree<Database> databaseTree = new Tree<Database>(connectionString);
 
 

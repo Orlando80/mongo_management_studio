@@ -7,9 +7,12 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
 <BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="Presentation.Controllers.mainController">
     <top>
-    <MenuBar>
+    <MenuBar useSystemMenuBar="true" >
         <Menu text="File">
             <MenuItem text="Open Connection" onAction="#openConnection"></MenuItem>
         </Menu>
@@ -17,11 +20,16 @@
     </top>
     <center>
     <SplitPane dividerPositions="0.3">
-
-        <TreeView fx:id="Databases">
-
+         <SplitPane dividerPositions="0.7" orientation="VERTICAL">
+        <TreeView fx:id="Databases" styleClass="normal-text-nobold">
         </TreeView>
-        <SplitPane orientation="VERTICAL" dividerPositions="0.8">
+            <VBox style="-fx-background-color: #909090">
+                <Label styleClass="normal-text" style="-fx-text-fill: white">Properties </Label>
+                <TableView fx:id="tblProperties">
+                </TableView>
+            </VBox>
+         </SplitPane>
+    <SplitPane orientation="VERTICAL" dividerPositions="0.8">
     <TabPane fx:id="tabPanel">
 
     </TabPane>

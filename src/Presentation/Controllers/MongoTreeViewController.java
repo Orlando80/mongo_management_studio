@@ -41,7 +41,7 @@ public class MongoTreeViewController {
             TreeItem<String> singleItem = new TreeItem<String>("{" + i + "} ...");
             for (String key: obj.keySet())
             {
-                TreeItem<String> item = new TreeItem<String>("{ " + key + " : " + obj.get(key) + " }");
+                TreeItem<String> item = new TreeItem<String>("{ " + key + " : " + obj.get(key) + " [ "+ obj.get(key).getClass().getSimpleName() +" ] }");
                 singleItem.getChildren().add(item);
             }
             i++;
